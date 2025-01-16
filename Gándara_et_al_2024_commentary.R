@@ -1,6 +1,5 @@
 # 1. generating racial group G
-# df <- data.frame(race = c(rep(1, 750), rep(0, 118)))    # sample sizes for each racial group calculated from Figure 2 in Gándara et al. (2024)
-df <- data.frame(race = c(rep(1, 75000), rep(0, 118000))) # we multiply those sample sizes by 100 to get a bigger sample size
+df <- data.frame(race = c(rep(1, 750), rep(0, 118)))    # sample sizes for each racial group calculated from Figure 2 in Gándara et al. (2024)
 n <- nrow(df) # total sample size
 
 
